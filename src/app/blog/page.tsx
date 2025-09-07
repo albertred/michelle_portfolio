@@ -2,7 +2,15 @@ import Link from 'next/link';
 import { ChevronLeft } from 'lucide-react';
 
 // TODO: Replace with actual blog posts from content/blog/*.mdx files
-const blogPosts = [
+interface BlogPost {
+  slug: string;
+  title: string;
+  excerpt: string;
+  date: string;
+  readTime: string;
+}
+
+const blogPosts: BlogPost[] = [
   // {
   //   slug: 'building-spotify-mcp',
   //   title: 'Building a Spotify MCP Server for Claude',
