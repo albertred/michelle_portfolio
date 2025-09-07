@@ -230,6 +230,7 @@ export default function MainPortfolio() {
                 <h3 className="font-semibold text-ink mb-2">Now</h3>
                 <p className="text-sm text-ink-muted">
                   Currently learning about agentic AI and improving my knowledge of machine learning models. Always open to cool opportunities and connections! 
+                  Visit my notion <Link href="https://www.notion.so/current-21a63520178280569f22d4576f5739cb">here</Link> to learn more about what I'm up to.
                 </p>
               </div>
             </div>
