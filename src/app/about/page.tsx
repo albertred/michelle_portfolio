@@ -64,7 +64,7 @@ export default function AboutPage() {
                 </p>
                 <p>
                   I have a pretty wide variety of interests in software development. I explore anything that intrigues me, from full-stack development to machine learning. 
-                  I'm currently interested in getting crazy good at C++ and learning more about AI/ML. I'm also always looking for more ways to apply technology to make a positive world impact.
+                  I&apos;m currently interested in getting crazy good at C++ and learning more about AI/ML. I&apos;m also always looking for more ways to apply technology to make a positive world impact.
                 </p>
                 <p>
                   Outside of everything tech related, I like the outdoors, reading, music, and writing. 
