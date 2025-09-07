@@ -12,19 +12,19 @@ const skills = {
 const values = [
   {
     title: 'Continuous Learning',
-    description: 'I believe in constantly expanding my knowledge and staying curious about new technologies and methodologies.'
+    description: 'In the very fast-paced world of technology, I love learning and keeping up with new advancements'
   },
   {
     title: 'Creativity',
-    description: 'I strive to write clean, maintainable code and build solutions that are both functional and elegant.'
+    description: 'I like to have fun while building software'
   },
   {
     title: 'Collaboration',
-    description: 'The best solutions come from diverse perspectives and effective teamwork. I value open communication and knowledge sharing.'
+    description: 'I always appreciate diverse perspectives and believe that the best solutions come from effective teamwork'
   },
   {
     title: 'Impact-Driven',
-    description: 'I focus on building technology that makes a meaningful difference in people\'s lives and solves real problems.'
+    description: 'I want to build technology that leads to a sustainable future'
   }
 ];
 
@@ -47,7 +47,7 @@ export default function AboutPage() {
             About Me
           </h1>
           <p className="text-xl text-ink-muted leading-relaxed">
-            Computer Science student.
+            #1 Computer Science fan!! 
           </p>
         </div>
 
@@ -59,20 +59,15 @@ export default function AboutPage() {
               <h2 className="text-2xl font-bold text-ink mb-4">Bio</h2>
               <div className="prose prose-lg text-ink-muted space-y-4">
                 <p>
-                  Hi! I&apos;m Michelle, a Computer Science student at the University of Waterloo with a passion for 
-                  building innovative software solutions. With a 92.00 cumulative average, I&apos;m dedicated to 
-                  academic excellence while gaining hands-on experience in the tech industry.
+                  Hello! I&apos;m Michelle, a Computer Science student at the University of Waterloo with a passion for 
+                  building innovative software solutions. I love exploring new technologies and seeing how they can be applied to real-world problems.
                 </p>
                 <p>
-                  My journey in software development spans across multiple domains - from building compilers and 
-                  exploring machine learning to developing full-stack web applications and automation tools. 
-                  I&apos;m particularly interested in the intersection of AI and human-computer interaction, 
-                  always looking for ways technology can enhance and simplify our daily experiences.
+                  I have a pretty wide variety of interests in software development. I explore anything that intrigues me, from full-stack development to machine learning. 
+                  I'm currently interested in getting crazy good at C++ and learning more about AI/ML. I'm also always looking for more ways to apply technology to make a positive world impact.
                 </p>
                 <p>
-                  When I&apos;m not coding, I enjoy exploring new technologies, contributing to open-source projects, 
-                  and participating in hackathons where I can collaborate with other passionate developers to 
-                  create innovative solutions under pressure.
+                  Outside of everything tech related, I like the outdoors, reading, music, and writing. 
                 </p>
               </div>
             </section>
@@ -117,8 +112,7 @@ export default function AboutPage() {
               <h2 className="text-2xl font-bold text-ink mb-4">Let&apos;s Work Together</h2>
               <p className="text-ink-muted mb-6 leading-relaxed">
                 I&apos;m always open to discussing new opportunities, collaborations, or just having a chat about technology. 
-                Whether you&apos;re looking for a co-op student, want to collaborate on a project, or just want to connect, 
-                I&apos;d love to hear from you!
+                Whoever you are, feel free to reach out !!!
               </p>
               <div className="flex justify-center gap-4 flex-wrap">
                 <a 

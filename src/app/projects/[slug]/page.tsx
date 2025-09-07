@@ -26,7 +26,8 @@ const projectsData: Record<string, ProjectData> = {
     summary: 'Building a custom Model Context Protocol server to connect Claude Desktop with Spotify API',
     description: `
       <div class="space-y-6">
-        <p> I wanted to build this project to combine my love for spotify and interest in AI integrations. The Spotify MCP (Model Context Protocol) server represents an innovative approach to integrating music streaming capabilities directly into AI conversations. This project bridges the gap between natural language interaction and music control, allowing users to manage their Spotify experience through conversational commands. </p>
+        <p> With all the buzz around MCP, I wanted to try building one myself. I have always wanted to explore how AI can make personalized music recommendations / help manage playlists,
+        so this was the perfect opportunity to create a Spotify MCP Server. I used the same structure as in https://www.builder.io/blog/mcp-server.</p>
         
         <h2 class="text-2xl font-bold text-ink mt-8 mb-4">The Challenge</h2>
         <p>Modern AI assistants excel at understanding natural language but struggle with real-time integration of external services like music streaming platforms. Users often need to switch between their AI chat interface and music applications, breaking the flow of conversation and productivity.</p>
@@ -41,18 +42,16 @@ const projectsData: Record<string, ProjectData> = {
           <li><strong>Error Handling:</strong> Robust error handling for API rate limits and network issues</li>
         </ul>
         
-        <h2 class="text-2xl font-bold text-ink mt-8 mb-4">Features</h2>
+        <h2 class="text-2xl font-bold text-ink mt-8 mb-4">Features I want</h2>
         <ul class="list-disc list-inside space-y-2 ml-4">
           <li>Create and manage playlists through natural language</li>
           <li>Intelligent music recommendations based on listening history</li>
-          <li>Voice-controlled playback (play, pause, skip, adjust volume)</li>
           <li>Music discovery through conversational exploration</li>
           <li>Integration with Claude's contextual understanding</li>
         </ul>
         
         <h2 class="text-2xl font-bold text-ink mt-8 mb-4">Impact & Learning</h2>
-        <p>This project has allowed me to learn about 
-        has deepened my understanding of API integration patterns, real-time communication protocols, and the emerging field of AI-powered application interfaces. It demonstrates how traditional REST APIs can be enhanced with conversational interfaces to create more intuitive user experiences.</p>
+        <p>This project has allowed me to learn about using Spotify API and OAuth 2.0 authentication flows and I'm learning about how AI is becoming more useful tools. </p>
         
         <p>The project also explores the future of human-computer interaction, where natural language becomes the primary interface for complex application control. This has implications beyond music streaming, potentially revolutionizing how we interact with all digital services.</p>
       </div>
@@ -72,7 +71,7 @@ const projectsData: Record<string, ProjectData> = {
     summary: 'Built a full C++ compiler for WLP4, a C subset including functions and pointers',
     description: `
       <div class="space-y-6">
-        <p>The WLP4 Compiler project represents a comprehensive exploration of compiler design and implementation. WLP4 (Waterloo Language Plus Pointers Plus Procedures Plus Profiling) is a subset of C that includes essential programming constructs while maintaining manageable complexity for educational purposes.</p>
+        <p>The WLP4 Compiler project represents a comprehensive exploration of compiler design and implementation. WLP4 is a subset of C that includes essential programming constructs while maintaining manageable complexity for educational purposes. This project was in accordance to CS241 at UWaterloo. </p>
         
         <h2 class="text-2xl font-bold text-ink mt-8 mb-4">Project Overview</h2>
         <p>This compiler translates WLP4 source code into MIPS assembly language, implementing all major compiler phases from lexical analysis to code generation. The project demonstrates deep understanding of programming language theory and practical compiler construction techniques.</p>
@@ -117,7 +116,6 @@ const projectsData: Record<string, ProjectData> = {
           <li><strong>Memory Management:</strong> Implementing proper cleanup for complex data structures</li>
           <li><strong>Error Recovery:</strong> Providing meaningful error messages without crashing</li>
           <li><strong>Code Optimization:</strong> Balancing code efficiency with compilation speed</li>
-          <li><strong>Testing:</strong> Creating comprehensive test suites for each compiler phase</li>
         </ul>
         
         <h2 class="text-2xl font-bold text-ink mt-8 mb-4">Learning Outcomes</h2>
@@ -324,7 +322,7 @@ const projectsData: Record<string, ProjectData> = {
     summary: 'Payroll management system automating extraction, calculation, and PDF generation',
     description: `
       <div class="space-y-6">
-        <p>This payroll management system was developed to address the time-consuming and error-prone process of manual payroll calculation and paystub generation. Built during my early programming journey, it demonstrates fundamental software engineering principles applied to real-world business needs.</p>
+        <p>This payroll management system was developed to address the time-consuming and error-prone process of manual payroll calculation and paystub generation, inspired by my mom's own frustration with payroll tasks. Built during my early programming journey, it demonstrates fundamental software engineering principles applied to real-world business needs.</p>
         
         <h2 class="text-2xl font-bold text-ink mt-8 mb-4">Business Challenge</h2>
         <p>Small to medium-sized businesses often struggle with payroll processing due to:</p>
