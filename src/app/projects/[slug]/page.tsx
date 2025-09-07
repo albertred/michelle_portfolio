@@ -176,19 +176,6 @@ const projectsData: Record<string, ProjectData> = {
         <ul class="list-disc list-inside space-y-2 ml-4">
           <li>Real-time audio processing to capture conversation highlights</li>
           <li>Intelligent summarization focusing on key points and action items</li>
-          <li>Automatic extraction of contact information and follow-up tasks</li>
-          <li>Privacy-focused processing with user consent mechanisms</li>
-        </ul>
-        
-        <h2 class="text-2xl font-bold text-ink mt-8 mb-4">Technical Implementation</h2>
-        <p>The 36-hour hackathon timeline required efficient development practices:</p>
-        
-        <h3 class="text-xl font-semibold text-ink mt-6 mb-3">Frontend Development</h3>
-        <ul class="list-disc list-inside space-y-2 ml-4">
-          <li>React components for modular, reusable UI elements</li>
-          <li>TailwindCSS for rapid, responsive design implementation</li>
-          <li>Web Audio API for real-time audio capture and processing</li>
-          <li>Canvas-based interactive maps for venue visualization</li>
         </ul>
         
         <h3 class="text-xl font-semibold text-ink mt-6 mb-3">AI Integration</h3>
@@ -208,6 +195,9 @@ const projectsData: Record<string, ProjectData> = {
           <li>User experience design with immediate feedback cycles</li>
         </ul>
         
+        <h2 class="text-2xl font-bold text-ink mt-8 mb-4">Team Collaboration & Hackathon Experience</h2>
+        <p>Working as a team of four during the intense 36-hour hackathon environment was both challenging and rewarding. The image below shows our team during the final presentation, demonstrating the collaborative spirit and dedication that made Mingo successful.</p>
+        
         <h2 class="text-2xl font-bold text-ink mt-8 mb-4">Impact & Recognition</h2>
         <p>Mingo demonstrated the potential for AI-enhanced social interactions and received positive feedback from hackathon judges and attendees. The project showcases how emerging AI technologies can solve real-world social challenges while maintaining user privacy and consent.</p>
         
@@ -219,7 +209,7 @@ const projectsData: Record<string, ProjectData> = {
       github: 'https://devpost.com/software/mingo-ua6mey',
       live: ''
     },
-    images: [],
+    images: ['/gallery.jpg'],
     status: 'Completed',
     featured: true
   },
