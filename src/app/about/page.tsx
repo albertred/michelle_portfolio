@@ -2,9 +2,9 @@ import Link from 'next/link';
 import { ChevronLeft, Mail, Download, Github, Linkedin } from 'lucide-react';
 
 const skills = {
-  'Programming Languages': ['C++', 'Python', 'JavaScript', 'TypeScript', 'HTML/CSS'],
-  'Frameworks & Libraries': ['React', 'Node.js', 'Express.js', '.NET Core', 'Django', 'TailwindCSS'],
-  'Tools & Technologies': ['Git', 'Linux', 'Playwright', 'Insomnia', 'MSTest', 'PyTorch', 'MongoDB'],
+  'Programming Languages': ['C++', 'C', 'Python', 'JavaScript', 'HTML/CSS'],
+  'Frameworks & Libraries': ['React', 'Angular', 'Node.js', 'Express.js', '.NET Core', 'PyTorch', 'TailwindCSS'],
+  'Tools & Technologies': ['Git', 'Linux', 'Playwright', 'Insomnia'],
   'Databases': ['SQL', 'MongoDB Atlas'],
   'Cloud & Deployment': ['Vercel', 'Azure']
 };
@@ -15,7 +15,7 @@ const values = [
     description: 'I believe in constantly expanding my knowledge and staying curious about new technologies and methodologies.'
   },
   {
-    title: 'Quality & Craftsmanship',
+    title: 'Creativity',
     description: 'I strive to write clean, maintainable code and build solutions that are both functional and elegant.'
   },
   {
@@ -47,7 +47,7 @@ export default function AboutPage() {
             About Me
           </h1>
           <p className="text-xl text-ink-muted leading-relaxed">
-            Computer Science student, software developer, and lifelong learner.
+            Computer Science student.
           </p>
         </div>
 
@@ -164,7 +164,7 @@ export default function AboutPage() {
                 </div>
                 <div>
                   <span className="text-ink-muted">GPA:</span>
-                  <span className="text-ink ml-2">92.00/100</span>
+                  <span className="text-ink ml-2">91.00/100</span>
                 </div>
               </div>
             </div>
@@ -206,9 +206,8 @@ export default function AboutPage() {
               <h3 className="font-semibold text-ink mb-4">Currently Exploring</h3>
               <div className="space-y-2 text-sm text-ink-muted">
                 <p>• Model Context Protocol development</p>
-                <p>• Advanced compiler optimization techniques</p>
-                <p>• Machine learning in predictive coding</p>
-                <p>• WebGL and creative coding</p>
+                <p>• How to build an LLM from scratch </p>
+                <p>• Machine learning models and their applications</p>
               </div>
             </div>
           </div>

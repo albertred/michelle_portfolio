@@ -144,12 +144,7 @@ const experiences = [
   }
 ];
 
-const allItems = [...projects, ...experiences].sort((a, b) => {
-  // Sort by period (most recent first)
-  const aDate = new Date(a.period.split(' – ')[0] || a.period);
-  const bDate = new Date(b.period.split(' – ')[0] || b.period);
-  return bDate.getTime() - aDate.getTime();
-});
+// Removed allItems since we're now displaying projects and experiences in separate sections
 
 export default function MainPortfolio() {
   return (
@@ -173,16 +168,15 @@ export default function MainPortfolio() {
                   Computer Science Student at University of Waterloo
                 </p>
                 <p className="text-ink-muted leading-relaxed">
-                  Building innovative solutions through software development, machine learning, and creative problem-solving. 
-                  Currently exploring the intersection of AI and human-computer interaction.
+                  Just a girl keeping up with the world. Passionate about problem-solving and making a real-world impact.
                 </p>
               </div>
 
               {/* Quick Links */}
               <nav className="space-y-2">
-                <Link href="/projects" className="block text-ink-muted hover:text-accent-600 transition-colors duration-200">
+                <a href="#work" className="block text-ink-muted hover:text-accent-600 transition-colors duration-200">
                   → Projects
-                </Link>
+                </a>
                 <a href="#experience" className="block text-ink-muted hover:text-accent-600 transition-colors duration-200">
                   → Experience  
                 </a>
@@ -235,8 +229,7 @@ export default function MainPortfolio() {
               <div className="p-4 bg-card rounded-2xl border border-border">
                 <h3 className="font-semibold text-ink mb-2">Now</h3>
                 <p className="text-sm text-ink-muted">
-                  Currently working on my WLP4 Compiler project and exploring Model Context Protocol integrations. 
-                  Always open to new opportunities and collaborations.
+                  Currently learning about agentic AI and improving my knowledge of machine learning models. Always open to cool opportunities and connections! 
                 </p>
               </div>
             </div>
@@ -244,12 +237,43 @@ export default function MainPortfolio() {
 
           {/* Right Column - Scrollable Feed */}
           <div className="space-y-6">
-            {allItems.map((item) => (
-              <Card 
-                key={item.id} 
-                {...item}
-              />
-            ))}
+            {/* Projects Section */}
+            <section id="work" className="scroll-mt-24">
+              <div className="flex items-center justify-between mb-6 sticky top-4 bg-bg/80 backdrop-blur-sm py-2 z-10">
+                <h2 className="text-2xl font-bold text-ink">
+                  Projects
+                </h2>
+                <Link 
+                  href="/projects" 
+                  className="text-sm text-accent-600 hover:text-accent-600/80 transition-colors duration-200 font-medium"
+                >
+                  View All →
+                </Link>
+              </div>
+              <div className="space-y-6">
+                {projects.map((project) => (
+                  <Card 
+                    key={project.id} 
+                    {...project}
+                  />
+                ))}
+              </div>
+            </section>
+
+            {/* Experience Section */}
+            <section id="experience" className="scroll-mt-24">
+              <h2 className="text-2xl font-bold text-ink mb-6 sticky top-4 bg-bg/80 backdrop-blur-sm py-2 z-10">
+                Experience
+              </h2>
+              <div className="space-y-6">
+                {experiences.map((experience) => (
+                  <Card 
+                    key={experience.id} 
+                    {...experience}
+                  />
+                ))}
+              </div>
+            </section>
           </div>
         </div>
       </div>

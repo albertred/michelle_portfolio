@@ -26,7 +26,7 @@ const projectsData: Record<string, ProjectData> = {
     summary: 'Building a custom Model Context Protocol server to connect Claude Desktop with Spotify API',
     description: `
       <div class="space-y-6">
-        <p>The Spotify MCP (Model Context Protocol) server represents an innovative approach to integrating music streaming capabilities directly into AI conversations. This project bridges the gap between natural language interaction and music control, allowing users to manage their Spotify experience through conversational commands.</p>
+        <p> I wanted to build this project to combine my love for spotify and interest in AI integrations. The Spotify MCP (Model Context Protocol) server represents an innovative approach to integrating music streaming capabilities directly into AI conversations. This project bridges the gap between natural language interaction and music control, allowing users to manage their Spotify experience through conversational commands. </p>
         
         <h2 class="text-2xl font-bold text-ink mt-8 mb-4">The Challenge</h2>
         <p>Modern AI assistants excel at understanding natural language but struggle with real-time integration of external services like music streaming platforms. Users often need to switch between their AI chat interface and music applications, breaking the flow of conversation and productivity.</p>
@@ -51,14 +51,15 @@ const projectsData: Record<string, ProjectData> = {
         </ul>
         
         <h2 class="text-2xl font-bold text-ink mt-8 mb-4">Impact & Learning</h2>
-        <p>This project has deepened my understanding of API integration patterns, real-time communication protocols, and the emerging field of AI-powered application interfaces. It demonstrates how traditional REST APIs can be enhanced with conversational interfaces to create more intuitive user experiences.</p>
+        <p>This project has allowed me to learn about 
+        has deepened my understanding of API integration patterns, real-time communication protocols, and the emerging field of AI-powered application interfaces. It demonstrates how traditional REST APIs can be enhanced with conversational interfaces to create more intuitive user experiences.</p>
         
         <p>The project also explores the future of human-computer interaction, where natural language becomes the primary interface for complex application control. This has implications beyond music streaming, potentially revolutionizing how we interact with all digital services.</p>
       </div>
     `,
-    tech: ['TypeScript', 'Node.js', 'Spotify API', 'OAuth 2.0', 'WebSocket', 'MCP Protocol'],
+    tech: ['TypeScript', 'Node.js', 'Spotify API', 'OAuth 2.0', 'MCP Protocol'],
     links: {
-      github: 'https://github.com/albertred',
+      github: 'https://github.com/albertred/Spotify-MCP',
       live: ''
     },
     images: [],
@@ -215,7 +216,7 @@ const projectsData: Record<string, ProjectData> = {
     `,
     tech: ['React', 'TailwindCSS', 'Cohere API', 'Web Audio API', 'JavaScript', 'RESTful APIs'],
     links: {
-      github: 'https://github.com/albertred',
+      github: 'https://devpost.com/software/mingo-ua6mey',
       live: ''
     },
     images: [],
@@ -317,9 +318,9 @@ const projectsData: Record<string, ProjectData> = {
         <p>The project showcases the potential for AI to address sustainability challenges while creating engaging user experiences. Winning the Best UI/UX award validated our approach of putting user needs at the center of technical innovation.</p>
       </div>
     `,
-    tech: ['Python', 'Streamlit', 'YOLOv5', 'PropelAuth', 'MongoDB Atlas', 'Computer Vision', 'Machine Learning'],
+    tech: ['Python', 'Streamlit', 'YOLOv5', 'PropelAuth', 'MongoDB Atlas', 'Computer Vision'],
     links: {
-      github: 'https://github.com/albertred',
+      github: 'https://devpost.com/software/fridge-friend-07xzct',
       live: ''
     },
     images: [],
@@ -450,9 +451,9 @@ const projectsData: Record<string, ProjectData> = {
         <p>This project established my foundation in full-stack development and reinforced the importance of understanding user needs when designing technical solutions.</p>
       </div>
     `,
-    tech: ['Python', 'Django', 'Pandas', 'Openpyxl', 'PyPDF2', 'HTML/CSS', 'SQLite'],
+    tech: ['Python', 'Django', 'Pandas', 'Openpyxl', 'PyPDF2', 'HTML/CSS'],
     links: {
-      github: 'https://github.com/albertred',
+      github: 'https://github.com/albertred/payroll_system',
       live: ''
     },
     images: [],

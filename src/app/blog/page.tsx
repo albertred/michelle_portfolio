@@ -3,20 +3,20 @@ import { ChevronLeft } from 'lucide-react';
 
 // TODO: Replace with actual blog posts from content/blog/*.mdx files
 const blogPosts = [
-  {
-    slug: 'building-spotify-mcp',
-    title: 'Building a Spotify MCP Server for Claude',
-    excerpt: 'How I built a Model Context Protocol server to integrate Spotify with Claude Desktop for natural language music control.',
-    date: '2025-01-15',
-    readTime: '5 min read'
-  },
-  {
-    slug: 'wlp4-compiler-journey',
-    title: 'Building a C++ Compiler from Scratch',
-    excerpt: 'My experience implementing a full compiler for WLP4, including lexical analysis, parsing, semantic analysis, and code generation.',
-    date: '2024-12-10',
-    readTime: '8 min read'
-  }
+  // {
+  //   slug: 'building-spotify-mcp',
+  //   title: 'Building a Spotify MCP Server for Claude',
+  //   excerpt: 'How I built a Model Context Protocol server to integrate Spotify with Claude Desktop for natural language music control.',
+  //   date: '2025-01-15',
+  //   readTime: '5 min read'
+  // },
+  // {
+  //   slug: 'wlp4-compiler-journey',
+  //   title: 'Building a C++ Compiler from Scratch',
+  //   excerpt: 'My experience implementing a full compiler for WLP4, including lexical analysis, parsing, semantic analysis, and code generation.',
+  //   date: '2024-12-10',
+  //   readTime: '8 min read'
+  // }
 ];
 
 export default function BlogPage() {
@@ -38,7 +38,7 @@ export default function BlogPage() {
             Blog
           </h1>
           <p className="text-xl text-ink-muted leading-relaxed">
-            Thoughts on software development, machine learning, and technology.
+            Thoughts on misc topics of intrigue!!
           </p>
         </div>
 
