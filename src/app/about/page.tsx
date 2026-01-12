@@ -59,12 +59,10 @@ export default function AboutPage() {
               <h2 className="text-2xl font-bold text-ink mb-4">Bio</h2>
               <div className="prose prose-lg text-ink-muted space-y-4">
                 <p>
-                  Hello! I&apos;m Michelle, a Computer Science student at the University of Waterloo with a passion for 
-                  building innovative software solutions. I love exploring new technologies and seeing how they can be applied to real-world problems.
+                  Hello! I&apos;m Michelle, a Computer Science student at the University of Waterloo. I'm passionate about problem-solving and technology that makes a difference. 
                 </p>
                 <p>
-                  I have a pretty wide variety of interests in software development. I explore anything that intrigues me, from full-stack development to machine learning. 
-                  I&apos;m currently interested in getting crazy good at C++ and learning more about AI/ML. I&apos;m also always looking for more ways to apply technology to make a positive world impact.
+                  currently: nerding out
                 </p>
                 <p>
                   Outside of everything tech related, I like the outdoors, reading, music, and writing. 
