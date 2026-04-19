@@ -134,9 +134,9 @@ const experiences = [
     title: 'AI Software Engineer Co-op',
     org: 'AXL: Human Potential, AI Superpowered',
     period: 'Jan 2026 – Present',
-    summary: 'Building a SwiftUI macOS startup app to redefine AI interactions and user workflows',
+    summary: 'Building a SwiftUI macOS app to redefine AI interactions and user workflows',
     bullets: [
-      'Building a SwiftUI macOS startup app in a 4-person team to redefine AI interactions and user workflows',
+      'Building a SwiftUI macOS app in a 4-person team to redefine AI interactions and user workflows',
       'Architected a dynamic UI system with multi-phase LLM orchestration to reactively render and populate UI controls based on selected mixed-media content',
       'Engineered a FastAPI backend with secure user authentication and integrated LLM service endpoints'
     ],
