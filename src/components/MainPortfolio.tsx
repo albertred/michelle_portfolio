@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, Download } from 'lucide-react';
+import { Github, Linkedin, Mail, Download, ExternalLink } from 'lucide-react';
 import Link from 'next/link';
 import Card from './Card';
 
@@ -178,7 +178,7 @@ const experiences = [
   {
     id: 'ops-intern',
     type: 'experience' as const,
-    title: 'Software Development Intern',
+    title: 'Software Development Co-op',
     org: 'Ontario Public Service',
     period: 'May 2024 – Aug 2024',
     summary: 'Automated regression test suite reducing testing time by 80%',
@@ -223,11 +223,14 @@ export default function MainPortfolio() {
 
               {/* Quick Links */}
               <nav className="space-y-2">
+                <a href="#experience" className="block text-ink-muted hover:text-accent-600 transition-colors duration-200">
+                  → Experience
+                </a>
+                <a href="#publications" className="block text-ink-muted hover:text-accent-600 transition-colors duration-200">
+                  → Publications
+                </a>
                 <a href="#work" className="block text-ink-muted hover:text-accent-600 transition-colors duration-200">
                   → Projects
-                </a>
-                <a href="#experience" className="block text-ink-muted hover:text-accent-600 transition-colors duration-200">
-                  → Experience  
                 </a>
                 <Link href="/blog" className="block text-ink-muted hover:text-accent-600 transition-colors duration-200">
                   → Blog
@@ -286,29 +289,6 @@ export default function MainPortfolio() {
 
           {/* Right Column - Scrollable Feed */}
           <div className="space-y-6">
-            {/* Projects Section */}
-            <section id="work" className="scroll-mt-24">
-              <div className="flex items-center justify-between mb-6 sticky top-4 bg-bg/80 backdrop-blur-sm py-2 z-10">
-                <h2 className="text-2xl font-bold text-ink">
-                  Projects
-                </h2>
-                <Link 
-                  href="/projects" 
-                  className="text-sm text-accent-600 hover:text-accent-600/80 transition-colors duration-200 font-medium"
-                >
-                  View All →
-                </Link>
-              </div>
-              <div className="space-y-6">
-                {projects.map((project) => (
-                  <Card 
-                    key={project.id} 
-                    {...project}
-                  />
-                ))}
-              </div>
-            </section>
-
             {/* Experience Section */}
             <section id="experience" className="scroll-mt-24">
               <h2 className="text-2xl font-bold text-ink mb-6 sticky top-4 bg-bg/80 backdrop-blur-sm py-2 z-10">
@@ -316,9 +296,57 @@ export default function MainPortfolio() {
               </h2>
               <div className="space-y-6">
                 {experiences.map((experience) => (
-                  <Card 
-                    key={experience.id} 
+                  <Card
+                    key={experience.id}
                     {...experience}
+                  />
+                ))}
+              </div>
+            </section>
+
+            {/* Publications Section */}
+            <section id="publications" className="scroll-mt-24">
+              <h2 className="text-2xl font-bold text-ink mb-6 sticky top-4 bg-bg/80 backdrop-blur-sm py-2 z-10">
+                Publications
+              </h2>
+              <div className="space-y-4">
+                <div className="bg-card rounded-2xl border border-border p-6">
+                  <p className="text-xs font-semibold text-accent-600 uppercase tracking-wide mb-1">CVPRW 2026</p>
+                  <h3 className="text-base font-semibold text-ink mb-1 leading-snug">
+                    Interpretable Pre-Release Baseball Pitch Type Anticipation from Broadcast 3D Kinematics
+                  </h3>
+                  <p className="text-sm text-ink-muted mb-3">Vision and Image Processing Lab, University of Waterloo · Second Author</p>
+                  <a
+                    href="https://arxiv.org/abs/2603.04874"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-sm text-accent-600 hover:text-accent-600/80 font-medium transition-colors duration-200"
+                  >
+                    <ExternalLink size={14} />
+                    arXiv:2603.04874
+                  </a>
+                </div>
+              </div>
+            </section>
+
+            {/* Projects Section */}
+            <section id="work" className="scroll-mt-24">
+              <div className="flex items-center justify-between mb-6 sticky top-4 bg-bg/80 backdrop-blur-sm py-2 z-10">
+                <h2 className="text-2xl font-bold text-ink">
+                  Projects
+                </h2>
+                <Link
+                  href="/projects"
+                  className="text-sm text-accent-600 hover:text-accent-600/80 transition-colors duration-200 font-medium"
+                >
+                  View All →
+                </Link>
+              </div>
+              <div className="space-y-6">
+                {projects.map((project) => (
+                  <Card
+                    key={project.id}
+                    {...project}
                   />
                 ))}
               </div>

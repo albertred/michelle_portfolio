@@ -20,6 +20,34 @@ interface ProjectData {
 }
 
 const projectsData: Record<string, ProjectData> = {
+  'zoob': {
+    title: 'Zoob: Semantic Zoom with AI',
+    period: 'Mar 2026',
+    summary: 'LLM-powered semantic zoom interface that adapts content to users\' level of focus',
+    description: `
+      <div class="space-y-6">
+        <p>Zoob is an LLM-powered semantic zoom interface that adapts content to the user's level of focus — transitioning from high-level task overviews down to individual documents and paragraph-level detail.</p>
+
+        <h2 class="text-2xl font-bold text-ink mt-8 mb-4">Concept</h2>
+        <p>Traditional interfaces present information at a fixed level of detail. Zoob flips this by letting the zoom level itself become the navigation layer — as you zoom in, the AI surfaces progressively deeper context and detail for whatever you're focused on.</p>
+
+        <h2 class="text-2xl font-bold text-ink mt-8 mb-4">Technical Implementation</h2>
+        <ul class="list-disc list-inside space-y-2 ml-4">
+          <li><strong>Infinite Canvas UI:</strong> Built an interactive canvas with graph-based nodes and smooth zoom transitions</li>
+          <li><strong>LLM Integration:</strong> Content at each zoom level is generated and adapted by an LLM based on focus context</li>
+          <li><strong>Next.js + Express:</strong> Full-stack TypeScript with a React frontend and Express backend</li>
+        </ul>
+      </div>
+    `,
+    tech: ['TypeScript', 'Next.js', 'Tailwind CSS', 'Express'],
+    links: {
+      github: 'https://github.com/albertred',
+      live: ''
+    },
+    images: [],
+    status: 'Completed',
+    featured: true
+  },
   'spotify-mcp': {
     title: 'Spotify MCP',
     period: 'Aug 2025 - Present',
