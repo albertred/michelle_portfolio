@@ -59,7 +59,7 @@ export default function AboutPage() {
               <h2 className="text-2xl font-bold text-ink mb-4">Bio</h2>
               <div className="prose prose-lg text-ink-muted space-y-4">
                 <p>
-                  Hello! I&apos;m Michelle, a Computer Science student at the University of Waterloo. I'm passionate about problem-solving and technology that makes a difference. 
+                  Hello! I&apos;m Michelle, a Computer Science student at the University of Waterloo. I&apos;m passionate about problem-solving and technology that makes a difference.
                 </p>
                 <p>
                   currently: nerding out
