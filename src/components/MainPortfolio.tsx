@@ -92,6 +92,23 @@ const projects = [
     images: []
   },
   {
+    id: 'watan',
+    type: 'project' as const,
+    title: 'Watan, CS246 Final Project',
+    period: 'Nov 2024 – Dec 2024',
+    summary: 'C++ implementation of Settlers of Catan with a text interface',
+    bullets: [
+      'Designed and implemented Watan, a C++ implementation of the game Settlers of Catan with a text interface',
+      'Collaborated in a team of two, utilizing object-oriented programming principles and design patterns such as Model-View-Controller to achieve modularity and maintainability'
+    ],
+    tech: ['C++'],
+    links: {
+      github: 'https://github.com/albertred',
+      live: ''
+    },
+    images: []
+  },
+  {
     id: 'payroll-software',
     type: 'project' as const,
     title: 'Payroll Management Software',
@@ -135,7 +152,6 @@ const experiences = [
     period: 'Sep 2025 – Jan 2026',
     summary: 'Investigated real-time analytics applications of 3D human pose estimation in baseball pitching',
     bullets: [
-      'Investigated real-time analytics applications of 3D human pose estimation in baseball pitching',
       'Implemented and optimized Temporal Convolutional Network models with attention mechanism on 3D joint data from motion-capture sequences (20K frames), achieving 80%+ pitch-type classification accuracy',
       'Second author to "Interpretable Pre-Release Baseball Pitch Type Anticipation from Broadcast 3D Kinematics" (arXiv:2603.04874), accepted to CVPRW 2026'
     ],
@@ -217,7 +233,7 @@ export default function MainPortfolio() {
                   Computer Science Student at University of Waterloo
                 </p>
                 <p className="text-ink-muted leading-relaxed">
-                  Just a girl keeping up with the world. Passionate about problem-solving and making a real-world impact.
+                  Just a girl keeping up with the world. Passionate about interesting problems and making a real-world impact.
                 </p>
               </div>
 
@@ -281,7 +297,7 @@ export default function MainPortfolio() {
               <div className="p-4 bg-card rounded-2xl border border-border">
                 <h3 className="font-semibold text-ink mb-2">Now</h3>
                 <p className="text-sm text-ink-muted">
-                  Currently learning about agentic AI and improving my knowledge of machine learning models. Always open to cool opportunities and connections! Visit my notion <Link href="https://www.notion.so/current-21a63520178280569f22d4576f5739cb">here</Link> to learn more about what I&apos;m up to.
+                  Currently having fun with building. Always open to cool opportunities and connections! 
                 </p>
               </div>
             </div>

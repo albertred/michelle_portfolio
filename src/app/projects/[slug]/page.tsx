@@ -344,6 +344,31 @@ const projectsData: Record<string, ProjectData> = {
     featured: true,
     awards: ['Best UI/UX - Technova 2024']
   },
+  'watan': {
+    title: 'Watan, CS246 Final Project',
+    period: 'Nov 2024 – Dec 2024',
+    summary: 'C++ implementation of Settlers of Catan with a text interface',
+    description: `
+      <div class="space-y-6">
+        <p>Watan is a fully-featured C++ implementation of Settlers of Catan, built as a final project for CS246 at the University of Waterloo. The game runs entirely through a text interface and supports the core mechanics of the board game.</p>
+
+        <h2 class="text-2xl font-bold text-ink mt-8 mb-4">Design & Architecture</h2>
+        <ul class="list-disc list-inside space-y-2 ml-4">
+          <li>Applied the Model-View-Controller pattern to separate game logic, display, and input handling</li>
+          <li>Used object-oriented design patterns to achieve modularity and maintainability across a large C++ codebase</li>
+          <li>Collaborated in a team of two with code reviews and shared ownership of all components</li>
+        </ul>
+      </div>
+    `,
+    tech: ['C++'],
+    links: {
+      github: 'https://github.com/albertred',
+      live: ''
+    },
+    images: [],
+    status: 'Completed',
+    featured: false
+  },
   'payroll-software': {
     title: 'Payroll Management Software',
     period: 'Jun 2023 - Aug 2023',

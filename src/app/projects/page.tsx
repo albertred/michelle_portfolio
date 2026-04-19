@@ -53,6 +53,15 @@ const projects = [
     awards: ['Best UI/UX - Technova 2024']
   },
   {
+    id: 'watan',
+    title: 'Watan, CS246 Final Project',
+    period: 'Nov 2024 – Dec 2024',
+    summary: 'C++ implementation of Settlers of Catan with a text interface',
+    tech: ['C++'],
+    status: 'Completed',
+    featured: false
+  },
+  {
     id: 'payroll-software',
     title: 'Payroll Management Software',
     period: 'Jun 2023 - Aug 2023',

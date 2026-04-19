@@ -197,9 +197,9 @@ export default function AboutPage() {
             <div className="bg-card rounded-2xl border border-border p-6">
               <h3 className="font-semibold text-ink mb-4">Currently Exploring</h3>
               <div className="space-y-2 text-sm text-ink-muted">
-                <p>• Model Context Protocol development</p>
+                <p>• Getting better than yall at C++</p>
                 <p>• How to build an LLM from scratch </p>
-                <p>• Machine learning models and their applications</p>
+                <p>• Claude maxxing </p>
               </div>
             </div>
           </div>
