@@ -2,11 +2,11 @@ import Link from 'next/link';
 import { ChevronLeft, Mail, Download, Github, Linkedin } from 'lucide-react';
 
 const skills = {
-  'Programming Languages': ['C++', 'C', 'Python', 'JavaScript', 'HTML/CSS'],
-  'Frameworks & Libraries': ['React', 'Angular', 'Node.js', 'Express.js', '.NET Core', 'PyTorch', 'TailwindCSS'],
-  'Tools & Technologies': ['Git', 'Linux', 'Playwright', 'Insomnia'],
-  'Databases': ['SQL', 'MongoDB Atlas'],
-  'Cloud & Deployment': ['Vercel', 'Azure']
+  'Programming Languages': ['TypeScript', 'C++', 'Python', 'Swift', 'HTML/CSS'],
+  'Frameworks & Libraries': ['React', 'Node.js', 'FastAPI', 'SwiftUI', '.NET Core', 'PyTorch', 'TailwindCSS'],
+  'Tools & Technologies': ['Git', 'Linux', 'PostgreSQL', 'Insomnia'],
+  'Databases': ['PostgreSQL', 'MongoDB Atlas'],
+  'Cloud & Deployment': ['Vercel']
 };
 
 const values = [
@@ -152,7 +152,7 @@ export default function AboutPage() {
                 </div>
                 <div>
                   <span className="text-ink-muted">Expected Graduation:</span>
-                  <span className="text-ink ml-2">May 2028</span>
+                  <span className="text-ink ml-2">Dec 2027</span>
                 </div>
                 <div>
                   <span className="text-ink-muted">GPA:</span>

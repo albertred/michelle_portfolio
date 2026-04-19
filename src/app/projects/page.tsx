@@ -7,12 +7,21 @@ import { motion } from 'framer-motion';
 // This would normally come from a CMS or API
 const projects = [
   {
+    id: 'zoob',
+    title: 'Zoob: Semantic Zoom with AI',
+    period: 'Mar 2026',
+    summary: 'LLM-powered semantic zoom interface that adapts content to users\' level of focus',
+    tech: ['TypeScript', 'Next.js', 'Tailwind CSS', 'Express'],
+    status: 'Completed',
+    featured: true
+  },
+  {
     id: 'spotify-mcp',
     title: 'Spotify MCP',
-    period: 'Aug 2025 - Present',
-    summary: 'Building a custom Model Context Protocol server to connect Claude Desktop with Spotify API',
+    period: 'Aug 2025 – Sep 2025',
+    summary: 'Built a custom Model Context Protocol server to connect Claude Desktop with the Spotify API',
     tech: ['TypeScript', 'Node.js', 'Spotify API'],
-    status: 'In Progress',
+    status: 'Completed',
     featured: true
   },
   {

@@ -7,14 +7,31 @@ import Card from './Card';
 
 const projects = [
   {
+    id: 'zoob',
+    type: 'project' as const,
+    title: 'Zoob: Semantic Zoom with AI',
+    period: 'Mar 2026',
+    summary: 'LLM-powered semantic zoom interface that adapts content to users\' level of focus',
+    bullets: [
+      'Built Zoob, an LLM-powered semantic zoom interface that adapts content to users\' level of focus, transitioning from task overviews to documents to paragraph-level detail',
+      'Developed an interactive infinite canvas UI with graph-based nodes and smooth zoom transitions'
+    ],
+    tech: ['TypeScript', 'Next.js', 'Tailwind CSS', 'Express'],
+    links: {
+      github: 'https://github.com/albertred',
+      live: ''
+    },
+    images: []
+  },
+  {
     id: 'spotify-mcp',
     type: 'project' as const,
     title: 'Spotify MCP',
-    period: 'Aug 2025 - Present',
-    summary: 'Building a custom Model Context Protocol server to connect Claude Desktop with Spotify API',
+    period: 'Aug 2025 – Sep 2025',
+    summary: 'Built a custom Model Context Protocol server to connect Claude Desktop with the Spotify API',
     bullets: [
-      'Building a custom Model Context Protocol server to connect with Claude Desktop with the Spotify API',
-      'Enabling playlist creation, song recommendations, and personalized music management through natural language commands while deepening understanding of API integration and Agentic AI'
+      'Built a custom Model Context Protocol server to connect Claude Desktop with the Spotify API',
+      'Enabled playlist creation and personalized music management through natural language commands'
     ],
     tech: ['TypeScript', 'Node.js', 'Spotify API'],
     links: {
@@ -64,7 +81,7 @@ const projects = [
     period: 'Sep 2024',
     summary: 'Web application that recommends recipes based on food images',
     bullets: [
-      'Built a web application with Streamlit Python that recommends recipes to users based on input of food images, created with image detection using YOLOv5 and a vectorizer trained recipe dataset from Kaggle',
+      'Built a web application with Streamlit Python that recommends recipes to users based on input of food images, using image detection with YOLOv5 and a vectorizer trained on a Kaggle recipe dataset',
       'Implemented user authentication with PropelAuth and stored user recipe data using MongoDB Atlas'
     ],
     tech: ['Python', 'PropelAuth', 'MongoDB Atlas'],
@@ -95,16 +112,48 @@ const projects = [
 
 const experiences = [
   {
+    id: 'axl-coop',
+    type: 'experience' as const,
+    title: 'AI Software Engineer Co-op',
+    org: 'AXL: Human Potential, AI Superpowered',
+    period: 'Jan 2026 – Present',
+    summary: 'Building a SwiftUI macOS startup app to redefine AI interactions and user workflows',
+    bullets: [
+      'Building a SwiftUI macOS startup app in a 4-person team to redefine AI interactions and user workflows',
+      'Architected a dynamic UI system with multi-phase LLM orchestration to reactively render and populate UI controls based on selected mixed-media content',
+      'Engineered a FastAPI backend with secure user authentication and integrated LLM service endpoints'
+    ],
+    tech: ['Swift', 'SwiftUI', 'FastAPI', 'Python'],
+    links: {},
+    images: []
+  },
+  {
+    id: 'vip-lab',
+    type: 'experience' as const,
+    title: 'Undergraduate Research Assistant',
+    org: 'Vision and Image Processing Lab, University of Waterloo',
+    period: 'Sep 2025 – Jan 2026',
+    summary: 'Investigated real-time analytics applications of 3D human pose estimation in baseball pitching',
+    bullets: [
+      'Investigated real-time analytics applications of 3D human pose estimation in baseball pitching',
+      'Implemented and optimized Temporal Convolutional Network models with attention mechanism on 3D joint data from motion-capture sequences (20K frames), achieving 80%+ pitch-type classification accuracy',
+      'Second author to "Interpretable Pre-Release Baseball Pitch Type Anticipation from Broadcast 3D Kinematics" (arXiv:2603.04874), accepted to CVPRW 2026'
+    ],
+    tech: ['PyTorch', 'Python', 'NumPy'],
+    links: {},
+    images: []
+  },
+  {
     id: 'rocket-coop',
     type: 'experience' as const,
     title: 'Software Development Co-op',
     org: 'Rocket',
     period: 'May 2025 – Aug 2025',
-    summary: 'Developed features for banker workflow management application',
+    summary: 'Developed workflow features for a banker-facing application, contributing to 30% workflow speed improvement',
     bullets: [
-      'Developed features for a banker workflow management application using C#, WPF, and SQL, as well as enhancing and testing .NET Core APIs with Insomnia and MSTest to support UI and backend application functionality',
-      'Took ownership of user stories from design through code implementation and delivering high-quality, maintainable solutions that support key business processes in a complex business domain',
-      'Led bi-weekly team retrospectives and participating in code reviews to support agile development practices'
+      'Developed workflow features from design to implementation for a banker-facing application with C#, WPF, and SQL, contributing to the goal of improving banker workflow speed by 30%',
+      'Refactored .NET Core APIs to support critical functionality and validated changes with Insomnia and MSTest',
+      'Led bi-weekly retrospectives to identify bottlenecks and implement process improvements, reducing sprint planning time by 50% and improving sprint delivery consistency for a 7-person team'
     ],
     tech: ['C#', 'WPF', 'SQL', '.NET Core', 'Insomnia', 'MSTest'],
     links: {},
@@ -113,16 +162,16 @@ const experiences = [
   {
     id: 'uw-researcher',
     type: 'experience' as const,
-    title: 'Undergraduate Researcher',
+    title: 'Undergraduate Researcher, UR2PhD Program',
     org: 'University of Waterloo',
     period: 'Sep 2024 – Feb 2025',
-    summary: 'Investigated activation function effects on stability in predictive coding networks',
+    summary: 'Investigated effects of activation functions on stability in predictive coding networks',
     bullets: [
-      'Investigated activation function effects on stability and convergence in predictive coding networks, applying theoretical understanding to experimental design and statistical analysis in PyTorch',
-      'Produced literature reviews and research proposals, demonstrating ability to translate theory into actionable items',
-      'Implemented regression models and neural networks to solve real-world prediction challenges, quickly mastering new machine learning techniques and frameworks in a dynamic research environment'
+      'Worked in a team of 4 to investigate the effects of activation functions on the stability and convergence of predictive coding networks, an emerging biologically inspired deep learning architecture',
+      'Implemented and evaluated regression models and neural networks in PyTorch, using NumPy and Matplotlib for data preprocessing, analysis, and visualization in real-world prediction tasks',
+      'Delivered a research presentation summarizing literature review, methodological design, and results'
     ],
-    tech: ['PyTorch', 'Python'],
+    tech: ['PyTorch', 'Python', 'NumPy', 'Matplotlib'],
     links: {},
     images: []
   },
